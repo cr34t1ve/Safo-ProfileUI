@@ -42,7 +42,7 @@ class _HomeState extends State<Home> {
             date: '15th',
             month: 'October',
             likes: '606',
-            image: 'assets/images/fairy-tale-1077863_1280@2x.png',
+            image: 'assets/images/fairy-tale-1077863_12801@2x.png',
           ),
           SizedBox(
             height: 18.0,
@@ -51,7 +51,25 @@ class _HomeState extends State<Home> {
             date: '21st',
             month: 'November',
             likes: '1453',
-            image: 'assets/images/fairy-tale-1077863_12800@2x.png',
+            image: 'assets/images/fairy-tale-1077863_12802@2x.png',
+          ),
+          SizedBox(
+            height: 18.0,
+          ),
+          WorkContainer(
+            date: '15th',
+            month: 'October',
+            likes: '606',
+            image: 'assets/images/fairy-tale-1077863_12803@2x.png',
+          ),
+          SizedBox(
+            height: 18.0,
+          ),
+          WorkContainer(
+            date: '21st',
+            month: 'November',
+            likes: '1453',
+            image: 'assets/images/fairy-tale-1077863_12804@2x.png',
           ),
         ],
       ),

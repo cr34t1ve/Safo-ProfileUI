@@ -22,7 +22,10 @@ class WorkContainer extends StatelessWidget {
         children: [
           Stack(
             children: [
-              Image.asset(image!),
+              Image.asset(
+                image!,
+                height: 110.0,
+              ),
               Positioned(
                 left: 23.0,
                 bottom: 8.0,
