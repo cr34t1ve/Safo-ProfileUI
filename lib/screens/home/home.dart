@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:safo_profileui/components/container.dart';
+import 'package:safo_profileui/components/drawer.dart';
 
 class Home extends StatefulWidget {
   @override
@@ -11,6 +12,7 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
+      drawer: AppDrawer(),
       body: Column(
         children: [
           SizedBox(
