@@ -118,10 +118,15 @@ class _ProfileState extends State<Profile> {
               Positioned(
                 left: 20.5,
                 top: 35.5,
-                child: Icon(
-                  Icons.chevron_left_outlined,
-                  color: Colors.white,
-                  size: 35,
+                child: GestureDetector(
+                  onTap: () {
+                    Navigator.pop(context);
+                  },
+                  child: Icon(
+                    Icons.chevron_left_outlined,
+                    color: Colors.white,
+                    size: 35,
+                  ),
                 ),
               ),
               Positioned(
@@ -275,4 +280,3 @@ class _ProfileState extends State<Profile> {
     );
   }
 }
-

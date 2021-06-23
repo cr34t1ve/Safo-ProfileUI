@@ -13,10 +13,15 @@ class AppDrawer extends StatelessWidget {
             SizedBox(
               height: 72.0,
             ),
-            Image.asset(
-              'assets/images/2020-06-08 14.58.47@2x.png',
-              height: 80,
-              width: 80,
+            GestureDetector(
+              onTap: () {
+                Navigator.popAndPushNamed(context, '/profile');
+              },
+              child: Image.asset(
+                'assets/images/2020-06-08 14.58.47@2x.png',
+                height: 80,
+                width: 80,
+              ),
             ),
             SizedBox(
               height: 11.0,
